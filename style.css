@@ -4,11 +4,18 @@
         --branco:#EAEBED;
         --cinza:#A3BAC3;
         --botao-ativo:#01A7C2;
-        --ceano-2:rgba(o, 112, 144, 0.8);
+        --ceano-2:rgba(0, 112, 144, 0.8);
     }
     body{ 
         background-color: var(--cor-de-fundo);
         font-family:'Exo 2' ;
 
-        
+
+    }
+    .botao{
+        font-family: 'Exo 2';
+        background-color: var(--ceano-2);
+        color: var(--branco);
+        font-size:  18px;
+        padding: 1em;
     }
